@@ -7,7 +7,10 @@ $(document).ready(function() {
 		});
 	});
 	$('#popup').click(function(){
-		$('.overlay,.popup').toggleClass('is-shown');
+		$('.overlay,.popup1').toggleClass('is-shown');
+	});
+	$('#popup1').click(function(){
+		$('.overlay,.popup2').toggleClass('is-shown');
 	});
 
 

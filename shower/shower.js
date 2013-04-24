@@ -664,7 +664,7 @@ window.shower = window.shower || (function(window, document, undefined) {
 			case 33: // PgUp
 			case 38: // Up
 			case 37: // Left
-			case 72: // H
+			//case 72: // H
 			case 75: // K
 				e.preventDefault();
 				shower.previous();
