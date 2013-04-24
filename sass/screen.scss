@@ -2,10 +2,20 @@
 .is-hidden{
 	display: none;
 }
+.cover{
+	text-align: center;
+}
 h2 small{
 	display: block;
 	font-size: 40%;
 	padding-top: 10px;
+}
+.slide_chapter{
+	text-align: center;
+	h2{
+		font-size: 350%;
+		margin-top: 100px;
+	}
 }
 .supercover{
 	div{
@@ -78,10 +88,12 @@ body .slide code{
 	}
 }
 #input15{
-	@extend #input1;
-	input:invalid{
-		outline:10px solid #c00
+	input{
+		@extend %input;
 	}
+}
+#input15, #input151{
+	@extend #input1;
 	input{
 		@extend %input;
 	}

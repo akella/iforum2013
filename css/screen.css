@@ -1,12 +1,17 @@
 .is-hidden { display: none; }
 
+.cover { text-align: center; }
+
 h2 small { display: block; font-size: 40%; padding-top: 10px; }
+
+.slide_chapter { text-align: center; }
+.slide_chapter h2 { font-size: 350%; margin-top: 100px; }
 
 .supercover div { overflow: visible; }
 .supercover img { position: absolute; top: 0; left: 0; bottom: 0; right: 0; display: block; }
 
-#input15 input:invalid, #email input:invalid { outline: 10px solid #cc0000; }
-#input15 input:valid, #email input:valid { outline: 10px solid green; }
+#input15 input:invalid, #input151 input:invalid, #email input:invalid { outline: 10px solid #cc0000; }
+#input15 input:valid, #input151 input:valid, #email input:valid { outline: 10px solid green; }
 
 body .slide code { background: #FAFAA2 !important; border-radius: 10px !important; }
 
@@ -18,11 +23,10 @@ body .slide code { background: #FAFAA2 !important; border-radius: 10px !importan
 .contacts h2 { font-size: 200%; }
 .contacts dt { font-size: 150%; }
 
-#input1 input, #input15 input, #email input { font-size: 100px; width: 300px; }
-#input1 img, #input15 img, #email img { width: 700px; display: block; }
+#input1 input, #input15 input, #input151 input, #email input { font-size: 100px; width: 300px; }
+#input1 img, #input15 img, #input151 img, #email img { width: 700px; display: block; }
 
-#input15 input:invalid { outline: 10px solid #cc0000; }
-#input15 button { -webkit-appearance: none; font-size: 100px; margin-left: 20px; padding: 10px; }
+#input15 button, #input151 button { -webkit-appearance: none; font-size: 100px; margin-left: 20px; padding: 10px; }
 
 #input2 input { font-size: 60px; width: 100%; }
 
